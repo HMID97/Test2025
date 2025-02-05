@@ -43,8 +43,7 @@ client.on('ready', async () => {
  .setAssetsLargeImage(' ') //You can put links in tenor or discord and etc.
     .setAssetsLargeText(' ') 
     .setAssetsSmallImage(' ') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('Small Text') 
-    .addButton(' ');
+    .setAssetsSmallText('Small Text')
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
