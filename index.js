@@ -35,7 +35,7 @@ client.on('ready', async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('1265825059692609587')
     .setType('PLAYING')
-    .setURL(' ') 
+    .setURL('https://www.twitch.tv/apparentlyjack_rl') 
     .setState(' ')
     .setName('Google Chrome')
     .setDetails(` `)
