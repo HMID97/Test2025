@@ -35,7 +35,6 @@ client.on('ready', async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('1265825059692609587')
     .setType('PLAYING')
-    .setURL('https://www.twitch.tv/apparentlyjack_rl') 
     .setState(' ')
     .setName('Google Chrome')
     .setDetails(` `)
@@ -43,7 +42,7 @@ client.on('ready', async () => {
  .setAssetsLargeImage(' ') //You can put links in tenor or discord and etc.
     .setAssetsLargeText(' ') 
     .setAssetsSmallImage(' ') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('Small Text')
+    .setAssetsSmallText(' ')
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
