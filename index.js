@@ -33,16 +33,16 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('939661271308046366')
+    .setApplicationId('712622567160283187')
     .setType('PLAYING')
     .setURL(' ') 
     .setState(' ')
     .setName('Google Chrome')
     .setDetails(` `)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('') 
-    .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage(' ') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText(' ') 
+    .setAssetsSmallImage(' ') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Small Text') 
     .addButton('Google', 'https://google.com');
 
