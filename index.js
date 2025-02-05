@@ -33,9 +33,9 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('712622567160283187')
+    .setApplicationId('1265825059692609587')
     .setType('PLAYING')
-    .setURL('') 
+    .setURL('https://www.twitch.tv/apparentlyjack_rl') 
     .setState('')
     .setName('Google Chrome')
     .setDetails(``)
