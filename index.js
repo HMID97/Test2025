@@ -39,10 +39,6 @@ client.on('ready', async () => {
     .setName('Google Chrome')
     .setDetails(` `)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage(' ') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText(' ') 
-    .setAssetsSmallImage(' ') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText(' ')
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
