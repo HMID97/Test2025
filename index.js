@@ -35,7 +35,7 @@ client.on('ready', async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('1265825059692609587')
     .setType('PLAYING')
-    .setName('Netflix')
+    .setName('Google Chrome')
     .setStartTimestamp(Date.now())
 
   client.user.setActivity(r);
